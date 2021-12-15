@@ -6,6 +6,7 @@ authors = ["caevh <harrycave1234@outlook.com>"]
 
 [tool.poetry.dependencies]
 python = "^3.8"
+pytube = "^11.0.2"
 
 [tool.poetry.dev-dependencies]
 pytest = "^5.2"
