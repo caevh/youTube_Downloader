@@ -23,4 +23,6 @@ jobs:
           virtualenvs-in-project: false
           virtualenvs-path: /home/harry/.cache/pypoetry/virtualenvs/youtube-downloader-Y2dMlinf-py3.8
           installer-parallel: true
+      
+      - name: Run Pytest
 
