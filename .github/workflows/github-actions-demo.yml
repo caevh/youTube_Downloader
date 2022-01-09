@@ -23,6 +23,7 @@ jobs:
           virtualenvs-in-project: false
           virtualenvs-path: ~/.virtualenvs
           installer-parallel: true
+        run: source .venv/bin/activate
       
       - name: Run Pytest
         run: poetry run pytest
