@@ -10,10 +10,10 @@ jobs:
         with:
           fetch-depth: 1
 
-      - name: set up python 3.8
+      - name: set up python 3.9
         uses: actions/setup-python@v1
         with:
-          python-version: 3.8
+          python-version: 3.9
       
       - name: Install Poetry
         uses: snok/install-poetry@v1
@@ -21,7 +21,7 @@ jobs:
           version: 1.1.10
           virtualenvs-create: true
           virtualenvs-in-project: false
-          virtualenvs-path: /home/harry/.cache/pypoetry/virtualenvs/youtube-downloader-Y2dMlinf-py3.8
+          virtualenvs-path: ~/.virtualenvs
           installer-parallel: true
       
       - name: Run Pytest
