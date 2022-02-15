@@ -6,8 +6,8 @@ authors = ["caevh <harrycave1234@outlook.com>"]
 
 [tool.poetry.dependencies]
 python = "^3.8"
-pytube = "^11.0.2"
 ffmpeg-python = "^0.2.0"
+pytube = {git = "https://github.com/caevh/pytube.git"}
 
 [tool.poetry.dev-dependencies]
 pytest = "^5.2"

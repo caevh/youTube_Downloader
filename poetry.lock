@@ -193,6 +193,13 @@ description = "Python 3 library for downloading YouTube Videos."
 category = "main"
 optional = false
 python-versions = ">=3.6"
+develop = false
+
+[package.source]
+type = "git"
+url = "https://github.com/caevh/pytube.git"
+reference = "master"
+resolved_reference = "188df3910567b55a208db906c571d610784d49da"
 
 [[package]]
 name = "tomli"
@@ -221,7 +228,7 @@ python-versions = "*"
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.8"
-content-hash = "d34c39f36c9b3d99b64dd148a2ecd69ff342486834e6aa615c32d13ce00cf6f0"
+content-hash = "ba62e2e83417839f4c5a34e3c2ad4925a0ff2e562a6562fc9bbd363ebfe4af5c"
 
 [metadata.files]
 atomicwrites = [
@@ -287,10 +294,7 @@ pytest = [
     {file = "pytest-5.4.3-py3-none-any.whl", hash = "sha256:5c0db86b698e8f170ba4582a492248919255fcd4c79b1ee64ace34301fb589a1"},
     {file = "pytest-5.4.3.tar.gz", hash = "sha256:7979331bfcba207414f5e1263b5a0f8f521d0f457318836a7355531ed1a4c7d8"},
 ]
-pytube = [
-    {file = "pytube-11.0.2-py3-none-any.whl", hash = "sha256:bf2b350e8e991f82b874928f5f1ba1a733a9848d650b01b08fabdf85eea15356"},
-    {file = "pytube-11.0.2.tar.gz", hash = "sha256:21d2d151e6525f9f79401ae7a74a7de1e2bb1c00ede5d77c89e22d496389c5f1"},
-]
+pytube = []
 tomli = [
     {file = "tomli-1.2.3-py3-none-any.whl", hash = "sha256:e3069e4be3ead9668e21cb9b074cd948f7b3113fd9c8bba083f48247aab8b11c"},
     {file = "tomli-1.2.3.tar.gz", hash = "sha256:05b6166bff487dc068d322585c7ea4ef78deed501cc124060e0f238e89a9231f"},
